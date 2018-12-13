@@ -7,6 +7,16 @@
 @import "portfolio.scss";
 @import "bootstrap-overrides.scss";
 
-body{
+body {
     background: rgb(224, 223, 223);
 } 
+
+#home h1 {
+    text-align: left;
+    font-size: 3.5em;
+}
+
+#subtitle {
+    text-align: right;
+    font-size: 2em;
+}

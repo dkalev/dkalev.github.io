@@ -2,7 +2,8 @@
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url('../img/header.jpg');
+  // background-image: url('../img/header.jpg');
+  background: linear-gradient( rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.25) ), url('../img/header.jpg');
   background-position: center center;
   @include background-cover;
   hr {
@@ -15,6 +16,18 @@ header.masthead {
   p {
     font-weight: 300;
   }
+
+  
+  .btn-circle {
+    width: $btn-size;
+    height: $btn-size;
+    text-align: center;
+    padding: $btn-size/2.67 0;
+    font-size: $btn-size/3.5;
+    line-height: $btn-size/14.6;
+    border-radius: $btn-size/1.47;
+  }
+  
   @media (min-width: 768px) {
     p {
       font-size: 1.15rem;
